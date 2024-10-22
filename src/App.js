@@ -1,23 +1,27 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MyNavBar from './components/MyNavBar';
+import MyAlert from './components/MyAlert';
+import MyButton from './components/MyButton.jsx';
+import MyCards from './components/MyCards.jsx';
+import MyCarousel from './components/MyCarousel.jsx';
+import MyModal from './components/MyModal.jsx';
+import MyLogin from './components/MyLogin.jsx';
+import MyCadastro from './components/MyCadastro.jsx';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MyNavBar/>
+      {/* <MyAlert/> */}
+      {/* <MyButton/> */}
+      {/* <MyCards/> */}
+      {/* <MyCarousel/> */}
+      {/* <MyModal/> */}
+      {/* <MyLogin/> */}
+      <MyCadastro/>
     </div>
   );
 }

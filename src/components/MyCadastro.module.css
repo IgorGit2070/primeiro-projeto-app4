@@ -1,0 +1,16 @@
+.caixaLogin {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.formIcon {
+    font-size: 100px;
+    text-align: center;
+}
+
+.iconForm {
+    text-align: center;
+}
